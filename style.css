@@ -1,0 +1,64 @@
+body{
+    background: #1C1A19;
+}
+.AppBar{
+   position: absolute;
+   width: 375px;
+   height: 92px;
+   left: 0px;
+   top: 0px; 
+}
+.PrimaryText{
+    width: 327px;
+    height: 124px;
+    color: #ff6b00;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    margin: 65% 0% 0% 5%;
+
+    line-spacing: 0.37px;
+}
+.SupportingText{
+    width: 327px;
+    height: 27px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+
+    display: flex;
+    align-items: center;
+    color: #fff5e1;
+    margin: 5% 5% 0% 5%;
+}
+.Description{
+    width: 327px;
+    height: 123px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 5% 15% 20% 5%;
+}
+.SocialMedia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 200px;
+    height: 40px;
+    margin: -15% 0% 0% 5%; 
+}
+.Group{
+    position: absolute;
+    left: 65.74%;
+    right: -30.09%;
+    top: 59.3%;
+    bottom: -11.63%;
+}
