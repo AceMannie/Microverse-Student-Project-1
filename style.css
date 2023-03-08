@@ -1,5 +1,12 @@
-body{
+/* body{
     background: #1C1A19;
+} */
+.Headline{
+    /* height: 590px; */
+    background-color: #1C1A19;
+    padding: 125px 24px;
+    gap: 12px;
+    width: 375px;
 }
 .AppBar{
    position: absolute;
@@ -17,7 +24,7 @@ body{
     font-weight: 400;
     font-size: 56px;
     line-height: 64px;
-    margin: 65% 0% 0% 5%;
+    margin: 50% 0% 0% 5%;
 
     line-spacing: 0.37px;
 }
@@ -59,6 +66,65 @@ body{
     position: absolute;
     left: 65.74%;
     right: -30.09%;
-    top: 59.3%;
+    top: 69.3%;
     bottom: -11.63%;
+}
+.Title{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0px;
+   gap: 24px;
+   
+   width: 327px;
+   height: 107px;
+   margin: 20% 0% 0% 5%;
+}
+.imgPlaceholder{
+    width: 327px;
+    height: 237px;
+    margin: 25% 0% 0% 5%;
+}
+.TittlePost{
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    align-items: center;
+    margin: 9% 0% 0% 5%;
+}
+.Supporting{
+    width: 327px;
+    height: 147px;
+    color: #091E42;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 3% 0% 0% 5%;
+}
+.Tags{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 297px;
+    height: 40px;
+    margin: 5% 0% 0% 5%;
+}
+.EnableButton{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 12px;
+    gap: 10px;
+    margin: 0% 0% 0% 2%;
+}
+.Work1{
+width: 327px;
+height: 386px;
+margin: 0% 0% 50% 5%;
 }
